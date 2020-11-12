@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
 })
 
 //get car router
-app.get('/car/:id', (req, res) => {
+app.get('/car/', (req, res) => {
     console.log('You are in the car route');
     
     async function findCar() {
